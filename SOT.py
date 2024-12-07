@@ -23,7 +23,7 @@ def ip_info(ip):
 | [+] > Latitude, Longitude|| {response.get('loc', 'None'): <51}|
 | [+] > Timezone           || {response.get('timezone', 'None'): <51}|
 | [+] > Google Maps        || https://www.google.com/maps?q={response.get('loc', 'None'): <21}|
-╰─{"-"*78}─╯
+╰─{" "*24}─╯╰─{" "*50}─╯
 """
         Write.Print(Center.XCenter(ip_details), Colors.white, interval=0)
 
@@ -68,19 +68,19 @@ def username_search(nickname):
             status_code = response.status_code
             
             if status_code == 200:
-                result_text = f"[+] > {url:<50}| found"
+                result_text = f"[+] > {url:<50}|| Found"
             elif status_code == 404:
-                result_text = f"[-] > {url:<50}| not found"
+                result_text = f"[-] > {url:<50}|| Not found"
             else:
-                result_text = f"[-] > {url:<50}| error: {status_code}"
+                result_text = f"[-] > {url:<50}|| Error: {status_code}"
 
             search_results += f"| {result_text:<78} |\n"
         
         except requests.exceptions.RequestException as e:
-            result_text = f"[-] > {url:<50} - error: {str(e)}"
+            result_text = f"[-] > {url:<50} || Error: {str(e)}"
             search_results += f"| {result_text:<78} |\n"
 
-    search_results += f"╰─{'-'*78}─╯"
+    search_results += f"╰─{' '*55}─╯╰─{' '*19}─╯"
 
     Write.Print(Center.XCenter(search_results), Colors.white, interval=0)
     Write.Input("\nPress Enter to return to the main menu...", Colors.red, interval=0)
@@ -104,7 +104,7 @@ def phone_info(phone_number):
 | [+] > Regiom:   || {region: <32}|
 | [+] > Operator: || {operator: <32}|
 | [+] > Validity: || {validity_text: <32}|
-╰─{"-"*50}─╯\n"""
+╰─{" "*15}─╯╰─{" "*31}─╯\n"""
 
         Write.Print(Center.XCenter(phonetext), Colors.white, interval=0)
     
