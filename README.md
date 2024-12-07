@@ -1,6 +1,6 @@
 # SOT-Simple-OSINT-Tools
 just a simple OSINT tools
-
+![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/Screenshot.jpg)
 Features:
 
     Search for profiles on social media by nickname
