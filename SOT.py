@@ -176,7 +176,7 @@ def main():
             os.system('cls' if os.name == 'nt' else 'clear')
         
         elif choice == "0":
-            Write.Print("\n[!] > Exiting...", Colors.blue_to_cyan, interval = 0)
+            Write.Print("\n[!] > Exiting...", Colors.red, interval = 0)
             exit()
 
         else:
