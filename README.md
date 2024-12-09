@@ -1,7 +1,6 @@
 # SOT - Simple OSINT Tools
 just a simple OSINT tools
-![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/Screenshot_pc.jpg)
-![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/Screenshot_termux.jpg)
+![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/Screenshot_pc.jpg) ![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/Screenshot_termux.jpg)
 
 
 # Features:
