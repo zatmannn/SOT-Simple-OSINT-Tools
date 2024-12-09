@@ -1,3 +1,4 @@
+clear
 echo -e "\033[1;91m
   ▄████████  ▄██████▄      ███     
   ███    ███ ███    ███ ▀█████████▄ 
@@ -11,13 +12,16 @@ echo -e "\033[1;91m
 echo -e "\033[1;91m[!]\033[1;97m Installing..."
 apt update -y
 apt upgrade -y
-echo -e "\033[1;94m[!]\033[1;97m Installing Python..."
+echo -e "\033[1;91m[!]\033[1;97m Installing Python..."
 apt install python -y
-echo -e "\033[1;94m[!]\033[1;97m Installing Requests..."
+echo -e "\033[1;91m[!]\033[1;97m Installing Requests..."
 pip install requests
-echo -e "\033[1;94m[!]\033[1;97m Installing Phonenumbers..."
+echo -e "\033[1;91m[!]\033[1;97m Installing Phonenumbers..."
 pip install phonenumbers
-echo -e "\033[1;94m[!]\033[1;97m Installing Pystyle..."
+echo -e "\033[1;91m[!]\033[1;97m Installing Pystyle..."
 pip install pystyle
+echo -e "\033[1;91m[!]\033[1;97m Installing Whois..."
+pip install python-whois
+pip install whois
 clear
 echo -e "\033[1;91m[!]\033[1;97m Installed successfully"
