@@ -27,6 +27,9 @@ echo [!] Installing pystyle...
 pip install pystyle
 echo [!] Installing Phonenumbers...
 pip install phonenumbers
+echo [!] Installing Whois...
+pip install python-whois
+pip install whois
 
 cls
 echo [!] Installed successfully
