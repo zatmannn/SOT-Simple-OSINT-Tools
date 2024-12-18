@@ -9,6 +9,8 @@ just a simple OSINT tools
     Search information about an IP address 
     Search information about a phone number
     Search for information about a domain
+    Search for information about a Discord invite
+    Search for information about a Discord token
     it has customization!!11!!
 
 
