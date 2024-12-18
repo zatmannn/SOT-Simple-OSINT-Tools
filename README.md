@@ -1,6 +1,6 @@
 # SOT - Simple OSINT Tools
 just a simple OSINT tools
-![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/Screenshot_pc.jpg) ![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/Screenshot_termux.jpg)
+![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/SOT.png)
 
 
 # Features:
@@ -14,15 +14,19 @@ just a simple OSINT tools
 
 # Setup:
 
-Installation on termux:
+Installation on termux/linux:
 
     apt update -y
     apt upgrade -y
-    apt install git -y
+    apt install git
     git clone https://github.com/zatmannn/SOT-Simple-OSINT-Tools
     cd SOT-Simple-OSINT-Tools
     bash setup.sh
     python SOT.py
+
+or
+
+    python3 SOT.py
 
 Installation on windows:
 
@@ -32,3 +36,4 @@ just download it and open setup.bat
 
 
 I am not responsible for what you can do with this tool
+For educational purposes only
