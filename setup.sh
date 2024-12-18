@@ -22,6 +22,5 @@ echo -e "\033[1;91m[!]\033[1;97m Installing Pystyle..."
 pip install pystyle
 echo -e "\033[1;91m[!]\033[1;97m Installing Whois..."
 pip install python-whois
-pip install whois
 clear
 echo -e "\033[1;91m[!]\033[1;97m Installed successfully"
