@@ -437,7 +437,7 @@ def settings():
 |  №   ||       Setting       ||                Description                |
 |======||=====================||===========================================|
 | [1]  || Theme change        || Customize the SOT theme                   |
-| [2]  || Language change     || Change the SOT language                   |
+| [2]  || In development...   || ???                                       |
 |------||---------------------||-------------------------------------------|
 | [0]  || Back to menu        || Exit the settings                         |
 ╰─    ─╯╰─                   ─╯╰─                                         ─╯\n\n\n"""
