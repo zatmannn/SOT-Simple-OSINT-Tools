@@ -11,12 +11,11 @@ just a simple OSINT tools
     Search for information about a domain
     Search for information about a Discord invite
     Search for information about a Discord token
-    it has customization!!11!!
 
 
 # Setup:
 
-Installation on termux/linux:
+Installation:
 
     apt update -y
     apt upgrade -y
@@ -26,9 +25,6 @@ Installation on termux/linux:
     bash setup.sh
     python SOT.py
 
-or
-
-    python3 SOT.py
 
 Installation on windows:
 
@@ -38,4 +34,5 @@ just download it and open setup.bat
 
 
 I am not responsible for what you can do with this tool
+
 For educational purposes only
