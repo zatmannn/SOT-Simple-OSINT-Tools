@@ -17,8 +17,6 @@ just a simple OSINT tools
 
 Installation:
 
-    apt update -y
-    apt upgrade -y
     apt install git
     git clone https://github.com/zatmannn/SOT-Simple-OSINT-Tools
     cd SOT-Simple-OSINT-Tools
