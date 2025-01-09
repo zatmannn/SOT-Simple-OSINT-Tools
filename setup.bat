@@ -29,6 +29,10 @@ echo [!] Installing Phonenumbers...
 pip install phonenumbers
 echo [!] Installing Whois...
 pip install python-whois
+echo [!] Installing Googlesearch...
+pip install googlesearch-python
+echo [!] Installing Beautifulsoup4
+pip install beautifulsoup4
 
 cls
 echo [!] Installed successfully
