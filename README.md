@@ -1,16 +1,30 @@
 # SOT - Simple OSINT Tools
-just a simple OSINT tools
+just a simple OSINT(and more) tools
 ![Screenshot](https://github.com/zatmannn/SOT-Simple-OSINT-Tools/blob/main/images/SOT.png)
 
 
 # Features:
 
-    Search for profiles on social media by nickname
-    Search information about an IP address 
-    Search information about a phone number
-    Search for information about a domain
-    Search for information about a Discord invite
-    Search for information about a Discord token
+Lookup tools:
+
+    IP Info Search
+    Phone Info Search
+    Domain Info Search
+    Google dork search
+
+
+Social Media Tools:
+
+    Social media search
+    Discord invite lookup
+    Discord token info
+    TikTok profile parser
+
+
+Other tools:
+
+    Python Code Obfuscate
+    Proxy Checker
 
 
 # Setup:
